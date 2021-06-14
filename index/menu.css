@@ -1,0 +1,127 @@
+﻿@media screen and (max-width: 864px) {
+	
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background: rgba(0, 0, 0, 0.9);
+		opacity: 0;
+		transition: 0.3s;
+	}
+	.header ul {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+	.header ul li {
+		display: block;
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+	}
+	.header ul li:nth-child(1) a {
+		transition-delay: 0.3s;
+	}
+	.header ul li:nth-child(2) a {
+		transition-delay: 0.6s;
+	}
+	.header ul li:nth-child(3) a {
+		transition-delay: 0.9s;
+	}
+	.header ul li:not(:first-child) {
+		margin-left: 0;
+	}
+	.header ul li a {
+		padding: 10px 24px;
+		opacity: 0;
+		color: rgba(14, 113, 205, 1.00);
+		letter-spacing: 2px;
+		transition: 0.3s;
+	}
+	ul li a:hover {
+		color: aliceblue;
+		transition: 0.5s;
+	}
+	.menu .login {
+		border-radius: 10px;
+		padding: 4px;
+		background: rgba(14, 113, 205, 1.00);
+		color: #fff;
+		padding: 10px 30px;
+		font-style: oblique;
+	}
+	.nav-btn {
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		display: block;
+		width: 48px;
+		height: 48px;
+		cursor: pointer;
+		z-index: 9999;
+		border-radius: 50%;
+	}
+	.nav-btn i {
+		display: block;
+		width: 20px;
+		height: 2px;
+		background: #fff;
+		border-radius: 2px;
+		margin-left: 14px;
+	}
+	.nav-btn i:nth-child(1) {
+		margin-top: 4px;
+		opacity: 1;
+	}
+	.nav-btn i:nth-child(2) {
+		margin-top: 4px;
+		opacity: 1;
+	}
+	.nav-btn i:nth-child(3) {
+		margin-top: 4px;
+		opacity: 1;
+	}
+}
+#nav:checked + .nav-btn {
+	transform: rotate(45deg);
+}
+#nav:checked + .nav-btn i {
+	background: #105F86;
+	transition: transform 0.2s ease;
+}
+#nav:checked + .nav-btn i:nth-child(1) {
+	transform: translateY(6px) rotate(180deg);
+}
+#nav:checked + .nav-btn i:nth-child(2) {
+	opacity: 1;
+}
+#nav:checked + .nav-btn i:nth-child(3) {
+	transform: translateY(-6px) rotate(90deg);
+}
+#nav:checked ~ .header {
+	z-index: 9990;
+	opacity: 1;
+}
+#nav:checked ~ .header ul li a {
+	opacity: 1;
+}
+.hidden {
+	display: none;
+}
+ul li a.login:hover {
+	background: none;
+	color: rgba(14, 113, 205, 1.00);
+	transition: 0.3s;
+	border: 2px solid rgba(14, 113, 205, 1.00);
+}
+header .hello .btn:hover {
+	background: rgba(14, 113, 205, 1.00);
+	color: #fff;
+	transition: 0.5s;
+	border: 2px solid #fff;
+}

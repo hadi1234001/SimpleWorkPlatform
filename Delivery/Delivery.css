@@ -1,0 +1,68 @@
+*{
+	background: url("back1.png");
+	text-align: center;
+	margin: 0;
+	padding: 0;	
+}
+.title{
+	letter-spacing: 3px;
+	color: #fff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"	;
+	font-size: 40px;
+	background: none;
+}
+.thanks{
+	font-size: 30px;
+	line-height: 150px;
+	border-bottom: 2px rgba(18,196,188,0.74) solid;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	background: rgba(24,131,144,0.64);
+	width: 400px;
+	height: 255px;
+}
+.inputfile{
+	background: none;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.inputfile:hover{
+	color: aqua;
+	transition: 1s;
+	letter-spacing: 7px;
+	cursor: pointer;
+}
+.textfile{
+	background: none;
+	border: 2px rgba(18,196,188,0.74) solid;
+	border-radius: 5px;
+	height: 25px;
+	width: 50%;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+form{
+	background: none;
+	padding-top: 5%;
+}
+.upload_file{
+	border: none;
+	height: 50px;
+	width: 50%;
+	margin-top: 30%;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	color: #fff;
+	font-size: 25px;
+	background: rgba(76,76,76,0.80);
+}
+.upload_file:hover{
+	transition: .9s;
+	letter-spacing: 2px;
+	border: 2px rgba(18,196,188,0.74) solid;
+	background: none;
+}

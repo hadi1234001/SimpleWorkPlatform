@@ -1,0 +1,76 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url("back1.png");
+	text-align: center;
+}
+h1 {
+	color: #fff;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.table {
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+}
+.title {
+	background: rgba(255, 255, 255, 0.68);
+	height: 45px;
+	border-radius: 5px;
+	color: dimgray;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.id {
+	width: 100px;
+}
+.name {
+	width: 250px;
+}
+.details {
+	width: 600px;
+}
+.stars {
+	width: 150px;
+}
+.info {
+	border: none;
+	background: rgba(255, 255, 255, 0.28);
+	height: 45px;
+	border-radius: 5px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+tpody, tr:hover {
+	background: rgba(8, 211, 176, 1.00);
+	font-size: 20px;
+	transition: .5s;
+}
+a {
+	text-decoration: none;
+	background: none;
+	color: deepskyblue;
+}
+.back {
+	position: absolute;
+	margin-left: -46%;
+	margin-top: 1%;
+}
+.back:hover {
+	letter-spacing: 4px;
+	color: #fff;
+	transition: 1s;
+}
+.checked {
+  color: orange;
+	background: none;
+}
+.checked_W{
+	color: #fff;
+	background: none;
+}
+i{
+	background: none;
+	color: aqua;
+}

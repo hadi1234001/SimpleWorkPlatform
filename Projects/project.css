@@ -1,0 +1,93 @@
+﻿body{
+	padding: 0;
+	margin: 0;
+	background:  #2e2a2a;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+h1{
+	color: aliceblue;
+	letter-spacing: 5px;
+}
+.show{
+	margin: 20px;
+	background: #fff;
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	color: azure;
+	letter-spacing: 2px;
+	font-size: 15px;
+	display: inline-block;
+}
+.one{
+	background: linear-gradient(45deg, #22a6b3, #30336b,#22a6b3);
+    border-radius: 10px  10px 0px 0px;
+	text-align: center;
+	padding: 10px;
+	position: static;
+}
+.tow{
+	background:#2e2a2a;
+	padding: 15px;
+	text-align: center;
+	height: 40px;
+}
+.three{
+	background: rgba(0,79,136,0.54);
+	text-align: center;
+}
+.four{
+	background: none;
+	text-align: center;
+}
+.five{
+	background: rgba(0,79,136,0.54);
+	text-align: center;
+}
+.six{
+	background: none;
+	text-align: center;
+}
+.show a{
+	text-decoration-line: none;	
+	border-radius: 10px;
+	padding: 10px 40px 10px 40px;
+	position: absolute;
+	background: linear-gradient(45deg, #30336b, #22a6b3,#30336b);
+	color: #fff;
+	margin-left: -90px;
+	margin-top: 20px;
+}
+#one , #tow,#four,#three,#five,#six{
+	background: none;
+}
+#four{
+	color: #2e2a2a;
+}
+.show a:hover{
+	background: linear-gradient(45deg, #2e2a2a, #22a6b3,#2e2a2a);
+	
+}
+.skill a{
+     background: none;
+	 color: #fff;
+	text-decoration-line: none;
+
+}
+.number_message{
+	color: green;	
+}
+
+
+
+
+
+
+
+
+
+
+

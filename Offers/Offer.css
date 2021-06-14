@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+/* CSS Document */
+h1 {
+	color: aliceblue;
+	text-transform: capitalize;
+	margin-top: 60px;
+	margin-left: -6px;
+	text-align: center;
+}
+.information {
+	color: aqua;
+	padding-left: 188px;
+	letter-spacing: 2px;
+}
+.data {
+	color: #00BFC8;
+	letter-spacing: 2px;
+}
+.description {
+	background: rgba(0, 0, 30, 0.5);
+	width: 75%;
+	margin-left: 175px;
+	padding-bottom: 10px;
+	border-radius: 25px 25px 0 0;
+}
+.description h2 {
+	text-align: left;
+	color: aliceblue;
+	margin-left: 50px;
+}
+.Details {
+	font-size: 18px;
+	color: azure;
+	text-transform: inherit;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.align {
+	width: 95%;
+	margin-left: 10px;
+}
+.add {
+	width: 75%;
+	margin-left: 175px;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+.add a {
+	text-decoration: none;
+	float: right;
+	margin-top: -55px;
+	color: #fff;
+	border-radius: 15px;
+	padding: 10px;
+	background: linear-gradient(45deg, #22a6b3, #30336b, #22a6b3);
+}
+.Offer a{
+	text-decoration: none;
+	color: #fff;
+}
+.add a:hover {
+	background: linear-gradient(45deg, #30336b, #22a6b3, #30336b);
+}
+.add h3 {
+	color: #fff;
+	margin-left: 5px;
+}
+.Offer {
+	width: 75%;
+	margin-left: 175px;
+	background: rgba(0, 0, 20, 0.5);
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.name_pro {
+	text-align: left;
+	margin-left: 50px;
+	font-size: 18px;
+}
+.date {
+	float: right;
+	margin-right: 50px;
+	color: rgba(14, 182, 203, 1.00)
+}
+p {
+	line-height: 20px;
+}
+.cost, .Delivery_time {
+	color: aqua;
+	padding-left: 70px;
+}
+.day {
+	color: aqua;
+}
+.button_offer{
+	text-decoration-line: none;
+	color: #15DF96;
+	--border: 2px rgba(27,71,191,1.00) solid;
+	padding:7px 15px 7px 15px; 
+	float: right;
+	margin-top: -10px;
+	margin-right: -5px;
+}
+.button_offer:hover{
+	background: rgba(14, 182, 203, 1.00);
+	color: aliceblue ;
+}
+@media screen and (max-width: 1250px) {
+	body {
+		text-align: center;
+		align-content: center;
+	}
+	.information {
+		padding: 0;
+		display: block;
+		padding-top: 5px;
+	}
+	.description {
+		margin-left: 5%;
+		width: 90%;
+	}
+	.add {
+		margin-left: -17%;
+		width: 90%;
+	}
+	.add a {
+		text-decoration: none;
+		float: right;
+		margin-top: -50px;
+		color: #fff;
+		border-radius: 15px;
+		padding: 10px;
+		background: linear-gradient(45deg, #22a6b3, #30336b, #22a6b3);
+	}
+	.Offer{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}

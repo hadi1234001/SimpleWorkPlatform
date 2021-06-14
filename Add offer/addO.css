@@ -1,0 +1,15 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+	font-family: Montserrat-SemiBold;
+	background: rgba(56,56,56,1.00);
+	
+}
+.image_offer{
+    width: 200px;
+    height: 200px;
+    margin-top: 316px;
+    margin-right: 211px;
+    margin-bottom: 179px;
+    margin-left: 211px;
+}	

@@ -1,0 +1,61 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url("back1.png");
+	text-align: center;
+}
+.contener{
+	margin-top: 15%;
+	background: none;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login{
+	background: none;
+}
+h1{
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 50px;
+	background: none;
+}
+.input{
+	background: rgba(255,255,255,0.33);
+	border: 2px solid rgba(214,214,214,0.87);
+	width: 50%;
+	height: 7vh;
+	border-radius: 5px;
+	margin-top: 10px;	
+	color: darkslategray;
+	font-size: 25px;
+}
+.input:hover{
+	background: rgba(255,255,255,0.56);
+}
+.input:focus{
+	background: #fff;
+	width: 75%;
+	border: none;
+}
+.btn{
+	width: 50%;
+	background: #fff;
+	border: none;
+	margin-top: 10px;
+	height: 7vh;
+	border-radius: 5px;
+	color: darkslategray;
+	font-size: 25px;
+}
+.btn:hover{
+	border: 2px solid rgba(214,214,214,0.87);
+	background: none;
+	color:  rgba(255,255,255,0.33) ;
+	transition: 1s;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: darkslategray;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+

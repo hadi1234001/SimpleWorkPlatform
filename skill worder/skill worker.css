@@ -1,0 +1,86 @@
+*{
+	background: url("back1.png") ;
+    height: 100vh;
+	width: 100%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	text-align: center
+}
+.title{
+	color: #fff;
+	font-size: 50px;
+	background: none;
+	letter-spacing: 5px;
+}
+.skill{
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+.divskill{
+	position: absolute;
+	height: 30px;
+	width: 39%;
+	margin-top: 2%;
+	background: none;
+}
+.form{
+	background: rgba(19,114,160,0.69);
+	width: 75%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	border-radius: 5px;
+}
+.number{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.left{
+	margin-left: -10%;
+}
+.number_project{
+	height: 20px;
+	width: 70px;
+	margin-top: 5px;
+	border: 2px rgba(24,207,187,0.80) solid;
+	border-radius: 5px;
+	margin-left: 45%;
+	color: aqua;
+}
+.number_project::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+} 
+.textarea{
+	height: 100px;
+	width: 50%;
+	padding-top: 10px;
+	margin-top: 1%;
+	color: aqua;
+	border: 2px rgba(24,207,187,0.80) solid;
+	text-align: center;
+}
+.submit{
+	width: 50%;
+	height: 50px;
+	border: none;
+	background: rgba(19,114,160,0.69);
+	border-radius: 5px;
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+.submit:hover{
+	background: none;
+	border:  2px rgba(19,114,160,0.69)  solid;
+	letter-spacing: 10px;
+	transition: 0.5s;
+}
+.Exit{
+	width: 25%;
+}
+a{
+	background: none;
+}
+
+
+

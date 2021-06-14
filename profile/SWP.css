@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.middle {
+	display: flex;
+	justify-content: center;
+	
+}
+.text {
+	color: rgba(10, 119, 188, 1.00);
+	font-size: 45px;
+	font-weight: 900;
+	cursor: pointer;
+}
+.hidden_logo {
+	max-width: 0;
+	opacity: 0;
+	transition: 0.5s ease-in;
+	color: #fff;
+}
+.text:hover .hidden_logo {
+	opacity: 1;
+	max-width: 1em;
+}

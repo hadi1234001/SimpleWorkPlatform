@@ -1,0 +1,123 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+	font-family: Montserrat-SemiBold;
+	background: rgba(40,40,40,1.00);
+	
+}
+.image_offer{
+    width: 200px;
+    height: 200px;
+    margin-top: 316px;
+    margin-right: 211px;
+    margin-bottom: 179px;
+    margin-left: 211px;
+}	
+.add {
+	float: right;
+	width: 50%;
+	text-align: center;
+	letter-spacing: 2px;
+	display: block;	
+}
+h1 {
+	color: aliceblue;
+	letter-spacing: 3px;
+	margin-top: 100px;
+}
+.input {
+	border: 2px rgba(10, 119, 188, 1.00) solid;
+	padding-top: 12px;
+	margin-top: 50px;
+	background: none;
+	height: 100px;
+	width: 80%;
+	padding-left: 5px;
+	border-radius: 10px;
+	font-family: Montserrat-SemiBold;
+	color: aqua;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+.input:after {
+	filter: blur(40px);
+}
+.title {
+	font-family: Montserrat-SemiBold;
+	font-size: 11px;
+	color: #8B8A8A;
+	text-transform: uppercase;
+	position: absolute;
+}
+.skill{
+	color: #8B8A8A;
+	margin-top: 30px;
+	height: 30px;
+	width: 80%;
+	border: 2px rgba(10, 119, 188, 1.00) solid;
+	border-radius: 10px;
+}
+#one {
+	margin-left: 8px;
+	margin-top: 60px;
+}
+#tow {
+	margin-left: -40%;
+	margin-top: 225px;
+}
+#three {
+	margin-left: -40%;
+	margin-top: 225px;
+}
+#four {
+	margin-left: -40%;
+	margin-top: 225px;
+}
+#five {
+	margin-left: -40%;
+	margin-top: 225px;
+}
+#textarea {
+	padding-top: 40px;
+	height: 200px;
+}
+.submit {
+	margin-top: 25px;
+	letter-spacing: 2px;
+	width: 80%;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background: linear-gradient(45deg, #22a6b3, #30336b);
+	color: #fff;
+	margin-bottom: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.submit:hover {
+	background-color: linear-gradient(45deg, #30336b, #22a6b3);
+	color: #fff;
+	border: none;
+	transition: 0.5s;
+}
+input:focus{
+  outline:none ;
+}
+textarea:focus{
+	outline:none ;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: aqua ;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(40,40,40,1.00) inset;
+  
+}
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+} 
